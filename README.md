@@ -1,27 +1,33 @@
-#Overview->
+###Overview->
 
-*This repository contains an Exploratory Data Analysis (EDA) of a dataset related to student scores. The dataset includes various features such as student demographics, test scores, and other relevant information.
+        *Conducted Exploratory Data Analysis (EDA) on a student scores dataset to uncover insights and trends.
+
+        *Analyzed distribution of marks in various subjects, identifying trends such as concentration of marks between 60 and 80.
+
+        *Explored relationships between demographic variables (such as parents' education level, ethnic group) and student performance.
+
+        *Investigated the impact of study hours and test preparation on students' marks.
+
+        *Utilized Python libraries including NumPy, Pandas, Matplotlib, and Seaborn for data analysis and visualization.
 
 
 
+###Final Observations->
 
+         *All the marks columns are forming a negatively skewed distribution.
 
-#Final Observations->
+         *Marks are mainly concentrated between 60 and 80.
 
-   *All the marks columns are forming a negatively skewed distribution.
+         *The NrSiblings column is slightly positively skewed.
 
-   *Marks are mainly concentrated between 60 and 80.
+         *The majority of NrSiblings data is concentrated between 1 and 3.
 
-   *The NrSiblings column is slightly positively skewed.
+         *Parents' education seems to have an impact on students' marks; higher degrees correlate with higher average marks.
 
-   *The majority of NrSiblings data is concentrated between 1 and 3.
+         *Ethnic group E has higher average marks compared to other groups.
 
-   *Parents' education seems to have an impact on students' marks; higher degrees correlate with higher average marks.
+         *Males have higher average marks in math, while females have higher average marks in reading and writing.
 
-   *Ethnic group E has higher average marks compared to other groups.
+         *As expected, students with a higher number of study hours tend to have higher average marks in each subject.
 
-   *Males have higher average marks in math, while females have higher average marks in reading and writing.
-
-   *As expected, students with a higher number of study hours tend to have higher average marks in each subject.
-
-   *Students who completed TestPrep tend to have higher average marks in each subject.
+         *Students who completed TestPrep tend to have higher average marks in each subject.
